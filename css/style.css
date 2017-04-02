@@ -33,6 +33,7 @@ h1 {
   background-color: white;
   width: 80vw;
   min-height: 60vh;
+  float: left;
 }
 
 input {
@@ -51,4 +52,24 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+.displayWeather ul li {
+    list-style: outside none none;
+    padding: 5px 15px;
+}
+.displayWeather ul {
+    background: #9cadba none repeat scroll 0 0;
+    float: left;
+    margin: 0 0.5% 20px;
+    padding: 0;
+    width: 19%;
+    border-radius: 5px;
+}
+.text-c{
+  text-align: center;
+}
+.wet-c{
+  text-transform: capitalize;
+  font-weight: bold;
+
 }
