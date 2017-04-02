@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <title>my weather app</title>
+</head>
+<body>
+  <section class="main">
+  <div class="container">
+    <h1>weather app 2017</h1>
+    <div class="inner">
+      <form id="weather" method="post" onsubmit="return false">
+        <input type="text" required placeholder="city" name="city">
+        <input type="text" required placeholder="country" name="country">
+        <input type="radio" required placeholder="country" value="0" name="unit">metric
+        <input type="radio" required  placeholder="country" value="1" name="unit">imperial
+        <input type="checkbox" placeholder="5 day forecast" name="future" id="future">5 day forecast
+        <button type="submit">get weather</button>
+
+      </form>
+      <div id="display" class="displayWeather">
+       <!-- your weather data and images goes in here -->
+      </div>
+    </div>
+  </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
