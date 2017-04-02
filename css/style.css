@@ -65,6 +65,9 @@ button {
     width: 19%;
     border-radius: 5px;
 }
+.displayWeather h4{
+  margin: 5px;
+}
 .text-c{
   text-align: center;
 }
